@@ -14,9 +14,7 @@ kortingsbon = 0.50
 totaalprijs = (croissantjes + stokbroodprijs) - kortingsbon * 3
 totaalprijs_af = round(totaalprijs,2)
 ##################################################################
-print("croissantjes prijs: ", croissantjes)
-print("stokbrood prijs: ", stokbroodprijs)
-print("totaalprijs €", totaalprijs_af)
+print(f'''De feestlunch kost je bij de bakker {totaalprijs_af} euro voor de 17 croissantjes en de 2 stokbroden als de 3 kortingsbonnen nog geldig zijn!''')
 
 
 

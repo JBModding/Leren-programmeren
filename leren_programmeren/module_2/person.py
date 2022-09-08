@@ -1,0 +1,12 @@
+print("vul de volgende gevens correctt in!")
+Name = input("wat is uw naam: ")
+adress = input("wat is uw adres: ")
+Postal = input("wat is uw postcode: ")
+region = input("wat is uw woonplaats: ")
+
+print("----------------------------------------------------")
+print("|  Naam      : ", Name)
+print("|  Adres     : ", adress)
+print("|  Postcode  : ", Postal)
+print("|  Woonplaats: ", region)
+print("----------------------------------------------------")

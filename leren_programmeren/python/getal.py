@@ -1,14 +1,15 @@
 print("welkom bij het min max script")
 #######################################
-a = 6
+# a = 6
 b = 15
 #######################################
 a = float(input("Vul een nummer in: "))
-if a >= 100:
-    if a == 0:
-        print("Nul")
-    else:
+if a > b:
         print("Groter dan")
+
+elif (a==b):
+    print("Gelijk aan")
+
 else:
     print("Kleiner dan")
 

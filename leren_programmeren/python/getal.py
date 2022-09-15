@@ -1,16 +1,23 @@
 print("welkom bij het min max script")
 #######################################
 # a = 6
-b = 15
+#b = 2
 #######################################
-a = float(input("Vul een nummer in: "))
+a = float(input("Vul uw getal in: "))
+b = float(input("VUl uw getal in: "))
 if a > b:
-        print("Groter dan")
+        print("A is groter dan B")
+        print(f"Het grootste getal is {a}")
+        print(f"Het klienste getal is {b}")
+
 
 elif (a==b):
-    print("Gelijk aan")
+    print("S is gelijk aan B")
 
 else:
-    print("Kleiner dan")
+    print("A is kleiner dan B")
+    print(f"Het klienste getal is {a}")
+    print(f"Het grootste getal is {b}")
+
 
 print("Auther: Justin Boom 99064305 V1.0.0")

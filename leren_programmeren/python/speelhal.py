@@ -15,6 +15,6 @@ print("ticket totaalprijs: ", tickets)
 print("vr totaalprijs: ", vip_af)
 #######################################
 eindprijs = tickets + vip_af
-eindprijs_cent = eindprijs * 100
+eindprijs_cent = eindprijs
 #######################################
 print(f'''Dit geweldige dagje-uit met {ticketsaantal} mensen in de Speelhal met {vipvr} minuten VR kost je maar {eindprijs_cent} cent''')

@@ -25,7 +25,6 @@ if I13 > S22: #als de iphone duurder is dan de samsung word de samsung aangebode
           print('========================================================')
           print(f'Het goedkoopste toestel is de Samsung S22 met een prijs van €{S22}')
           print('========================================================')
-          print(f'Het advies is dus de Samsung S22 te kopen. Deze is namelijk €{verschil2} goedkoper dan de Iphone 13')
 #
 elif gelijk: #omdat beide toestellen even duur zijn word de Iphone 13 aangeboden omdat dit de voorkeur is van de klant
     print('Beide toestellen zijn even duur, ons advies gaat dus uit naar de Iphone 13')
@@ -38,7 +37,12 @@ else: # als de Samsung duurder is dan de iphone word de iphone aangeboden bij de
     print('========================================================')
     print(f'Het goedkoopste toestel is de Iphone 13 met een prijs van €{I13}')
     print('========================================================')
-    print(f'Het advies is dus de Iphone 13 te kopen. Deze is namelijk €{verschil1} goedkoper dan de Samsung S22')
+
+
+if verschil2 <= 50:
+        print(f'Het advies is dus de Iphone 13 te kopen. Deze is namelijk €{verschil1} goedkoper dan de Samsung S22')
+else:
+        print(f'Het advies is dus de Samsung S22 te kopen. Deze is namelijk €{verschil2} goedkoper dan de Iphone 13')
 
 # if I13 > 900:
 #     print(f'de Iphone is het duurste, de telefoon kost {I13}')

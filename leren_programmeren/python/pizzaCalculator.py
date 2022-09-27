@@ -3,6 +3,7 @@ print("Welkom bij de davinci pizza shop:")
 small=float(8.99)
 medium=float(14.99)
 largo=float(20.99)
+var = 0
 #########################
 
 smallsize=int(input("hoeveel kleine pizza's wilt u? "))

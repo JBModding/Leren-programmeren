@@ -38,7 +38,7 @@ if vraag5_manOfVrouw == 'man':
      vraag6_snor = input("Heeft u een snor?")
      if vraag6_snor == "ja":
           vraag7_breedte = int (input('Hoe groot is uw snor in centimeters? '))
-          raise NameError("nope")
+          raise NameError("nope jammer joh")
     
 
 if vraag5_manOfVrouw == 'vrouw':

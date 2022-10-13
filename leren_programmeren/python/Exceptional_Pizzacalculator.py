@@ -2,27 +2,30 @@ print("Welkom in Pizza shop")
 small=8.99
 medium=14.99
 large=20.99
-var = 0
+#var = 0
 #####
-while var == 0:
+while True:
     try:
         smallsizepizza=int(input("Hoeveel Small size pizza's wilt u? "))
-        var = +1
-    except:
+        break
+        #var = +1
+    except ValueError:
         print('onjuiste ingevoerde waarde')
 
-while var == 1:
+while True:
     try:
         mediumsizepizza=int(input("Hoeveel medium size pizza's wilt u?"))
-        var = +2
-    except:
+        break
+        #var = +2
+    except ValueError:
         print('onjuiste ingevoerde waarde')
     
-while var == 2:
+while True:
     try:
         largesizepizza=int(input("Hoeveel Large size pizza's wilt u?"))
-        var = +3
-    except:
+        break
+        #var = +3
+    except ValueError:
         print('onjuiste ingevoerde waarde')
     
     

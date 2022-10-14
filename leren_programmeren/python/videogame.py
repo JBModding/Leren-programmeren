@@ -55,8 +55,6 @@ elif antwoord1 == "vooruit":
 elif antwoord1 == "achteruit":
     print(" je verlaat de straat . Tot ziens.")
     quit()
-else:
-    print(" ik begrijp niet wat je bedoelt .\n")
 if antwoord3 == "links":
     print("Je word in elkaar geslagen . Rip, " + naam + ".")
     quit()

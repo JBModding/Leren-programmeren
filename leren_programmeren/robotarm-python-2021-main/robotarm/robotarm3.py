@@ -1,26 +1,26 @@
 from RobotArm import RobotArm
 
-robotArm = RobotArm('exercise 4')
+robotArm = RobotArm('exercise 3')
 
 # Jouw python instructies zet je vanaf hier:
-for x in range(5):
+
+for x in range(1):
         robotArm.grab()
-        robotArm.moveRight()
         robotArm.moveRight()
         robotArm.drop()
-        if x < 4:
-                robotArm.moveLeft()
-                robotArm.moveLeft()
-
-for x in range(5):
-        robotArm.grab()
         robotArm.moveLeft()
-        robotArm.drop()
+        robotArm.grab()
         robotArm.moveRight()
-
-   
+        robotArm.drop()
+        robotArm.moveLeft()
+        robotArm.grab()
+        robotArm.moveRight()
+        robotArm.drop()
+        robotArm.moveLeft()
+        robotArm.grab()
+        robotArm.moveRight()
+        robotArm.drop()
 
 
 # Na jouw code wachten tot het sluiten van de window:
 robotArm.wait()
-
